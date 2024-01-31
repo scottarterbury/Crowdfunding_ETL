@@ -1,6 +1,6 @@
 ### Crowdfunding_ETL
 
-##**Challenge Synopsis:**
+## **Challenge Synopsis:**
 
 For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
 
@@ -8,7 +8,7 @@ Since this is a one-week project, make sure that you have done at least half of 
 
 Although you and your partner will divide the work, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your partner regularly and offer support.
 
-##**Instructions:**
+## **Instructions:**
 
 The instructions for this mini project are divided into the following subsections:
 
@@ -17,7 +17,7 @@ The instructions for this mini project are divided into the following subsection
 - Create the Contacts DataFrame
 - Create the Crowdfunding Database
   
-##*Create the Category and Subcategory DataFrames*
+## *Create the Category and Subcategory DataFrames*
 
 - Extract and transform the `crowdfunding.xlsx` Excel data to create a category DataFrame that has the following columns:
 
@@ -39,7 +39,7 @@ The instructions for this mini project are divided into the following subsection
 
 - Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
-##*Create the Campaign DataFrame*
+## *Create the Campaign DataFrame*
 
 - Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 
@@ -75,7 +75,7 @@ The instructions for this mini project are divided into the following subsection
 
 - Export the campaign DataFrame as `campaign.csv` and save it to your GitHub repository.
 
-##*Create the Contacts DataFrame*
+## *Create the Contacts DataFrame*
 
 - Choose one of the following two options for extracting and transforming the data from the `contacts.xlsx` Excel data:
 
@@ -94,7 +94,7 @@ The instructions for this mini project are divided into the following subsection
   - Split each "name" column value into a first and last name, and place each in a new column.
   - Clean and export the DataFrame as `contacts.csv` and save it to your GitHub repository.
       
-~~- If you chose Option 2, complete the following steps:
+~~If you chose Option 2, complete the following steps:
 
     - Import the `contacts.xlsx` file into a DataFrame.
     - Extract the "contact_id", "name", and "email" columns by using regular expressions.
@@ -103,7 +103,7 @@ The instructions for this mini project are divided into the following subsection
     - Split each "name" column value into a first and a last name, and place each in a new column.
     - Clean and then export the DataFrame as `contacts.csv` and save it to your GitHub repository.
 
-      Check that your final DataFrame resembles the one in the following image:~~
+      Check that your final DataFrame resembles the one in the following image~~
 
 ##*Create the Crowdfunding Database*
 
