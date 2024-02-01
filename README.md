@@ -93,10 +93,15 @@ The instructions for this mini project are divided into the following subsection
 - If you chose Option 2, complete the following steps:
 
     ~~- Import the `contacts.xlsx` file into a DataFrame.~~
+  
     ~~- Extract the "contact_id", "name", and "email" columns by using regular expressions.~~
+  
     ~~- Create a new DataFrame with the extracted data.~~
+  
     ~~- Convert the "contact_id" column to the integer type.~~
+  
     ~~- Split each "name" column value into a first and a last name, and place each in a new column.~~
+  
     ~~- Clean and then export the DataFrame as `contacts.csv` and save it to your GitHub repository.~~
 
 ##*Create the Crowdfunding Database*
