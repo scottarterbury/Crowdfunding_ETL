@@ -104,7 +104,7 @@ The instructions for this mini project are divided into the following subsection
   
     ~~- Clean and then export the DataFrame as `contacts.csv` and save it to your GitHub repository.~~
 
-##*Create the Crowdfunding Database*
+## *Create the Crowdfunding Database*
 
 - Inspect the four CSV files, and then sketch an ERD of the tables by using [QuickDBD](https://www.quickdatabasediagrams.com/)
 
