@@ -35,8 +35,6 @@ The instructions for this mini project are divided into the following subsection
 
 - A "subcategory" column that contains only the subcategory titles
 
-- The following image shows this subcategory DataFrame:
-
 - Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
 ## *Create the Campaign DataFrame*
@@ -71,8 +69,6 @@ The instructions for this mini project are divided into the following subsection
 
 - The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 
-- The following image shows this campaign DataFrame:
-
 - Export the campaign DataFrame as `campaign.csv` and save it to your GitHub repository.
 
 ## *Create the Contacts DataFrame*
@@ -94,16 +90,14 @@ The instructions for this mini project are divided into the following subsection
   - Split each "name" column value into a first and last name, and place each in a new column.
   - Clean and export the DataFrame as `contacts.csv` and save it to your GitHub repository.
       
-~~If you chose Option 2, complete the following steps:
+- If you chose Option 2, complete the following steps:
 
-    - Import the `contacts.xlsx` file into a DataFrame.
-    - Extract the "contact_id", "name", and "email" columns by using regular expressions.
-    - Create a new DataFrame with the extracted data.
-    - Convert the "contact_id" column to the integer type.
-    - Split each "name" column value into a first and a last name, and place each in a new column.
-    - Clean and then export the DataFrame as `contacts.csv` and save it to your GitHub repository.
-
-      Check that your final DataFrame resembles the one in the following image~~
+    ~~- Import the `contacts.xlsx` file into a DataFrame.~~
+    ~~- Extract the "contact_id", "name", and "email" columns by using regular expressions.~~
+    ~~- Create a new DataFrame with the extracted data.~~
+    ~~- Convert the "contact_id" column to the integer type.~~
+    ~~- Split each "name" column value into a first and a last name, and place each in a new column.~~
+    ~~- Clean and then export the DataFrame as `contacts.csv` and save it to your GitHub repository.~~
 
 ##*Create the Crowdfunding Database*
 
