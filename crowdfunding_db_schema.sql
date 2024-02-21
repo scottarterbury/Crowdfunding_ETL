@@ -122,10 +122,10 @@ REFERENCES "subcategory" ("subcategory_id");
 
 -- Use COPY command to import data from CSV files
 
--- COPY contacts FROM '/resources/contacts.csv' DELIMITER ',' CSV HEADER;
--- COPY category FROM '/resources/category.csv' DELIMITER ',' CSV HEADER;
--- COPY subcategory FROM '/resources/subcategory.csv' DELIMITER ',' CSV HEADER;
--- COPY campaign FROM '/resources/campaign.csv' DELIMITER ',' CSV HEADER;
+COPY contacts FROM '/resources/contacts.csv' DELIMITER ',' CSV HEADER;
+COPY category FROM '/resources/category.csv' DELIMITER ',' CSV HEADER;
+COPY subcategory FROM '/resources/subcategory.csv' DELIMITER ',' CSV HEADER;
+COPY campaign FROM '/resources/campaign.csv' DELIMITER ',' CSV HEADER;
 
 select * from contacts;
 select * from category;
